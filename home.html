@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Portfolio</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <!-- Logo Section -->
+            <div class="logo">
+                <img src="images/logo.png" alt="Nikita Mane Logo" class="logo-img">
+                <h1>Nikita Mane</h1>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+               
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a Java Developer with 3 years of experience building high-performance web applications.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Java</div>
+                <div class="skill-card">Spring Boot</div>
+                <div class="skill-card">C</div>
+                <div class="skill-card">Hibernate</div>
+                <div class="skill-card">REST APIs</div>
+                <div class="skill-card">MySQL</div>
+                <div class="skill-card">C++</div>
+                <div class="skill-card">RDBMS</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1: Medox Management System</h3>
+                    <p>An enterprise-level developed using Java, HTML,CSS and MySQL.</p>
+                      <!-- Video Clip -->
+                     <video controls class="project-video">
+                    <source src="videos/Project1.mp4" type="video/mp4">
+                 </video>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2: Cooking Collection</h3>
+                    <p>A recipe website displaying a list of recipes with collapsible recipe instructions.</p>
+                    <!-- Video Clip -->
+                    <video controls class="project-video">
+                        <source src="videos/project2.mp4" type="video/mp4">
+                     </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+                <p>Feel free to reach out via email or check out my GitHub!</p>
+                <!--Email Link-->
+                <a href="mailto:your-email@example.com" class="nav-link">
+                    <img src="images/email.png" alt="Email" class="icon">
+                </a>
+                <!--Github Link-->
+                <a href="https://github.com/nikitamane50" class="nav-link">
+                    <img src="images/github2.png" alt="GitHub" class="icon">
+                </a>
+         </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Nikita Mane. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
